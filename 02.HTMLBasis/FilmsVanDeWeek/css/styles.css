@@ -3,35 +3,35 @@
 }
 
 body {
-    background-color: #ddd;
+    background-color: rgb(126, 244, 16);
     font-family: sans-serif;
 }
 
 caption {
-    margin: 1em 0;
+    margin: 5em 0;
     text-transform: uppercase;
 }
 
 table {
     border-collapse: collapse;
-    box-shadow: #999 5px 5px 5px;
+    box-shadow: rgb(210, 37, 14) 5px 5px 5px;
 }
 
 td,
 th {
-    background-color: #e7e7e7;
+    background-color: #aaa1a1;
     border: solid #ccc 1px;
-    padding: 0 0.2em;
+    padding: 0 0.5em;
 }
 
 td,
 th {
-    width: 2em;
+    width: 10em;
 }
 
 td + td, 
 th + th {
-    width: 15em;
+    width: 5em;
 }
 
 td + td + td, 
@@ -40,7 +40,7 @@ th + th + th {
 }
 
 td {
-    background-color: #fff;
+    background-color: rgb(11, 51, 247);
     text-align: center;
     white-space: nowrap;
 }
@@ -54,5 +54,5 @@ tbody td:nth-child(2) {
 }
 
 td:empty {
-    background-color: darkgrey;
+    background-color: rgb(173, 26, 26);
 }
