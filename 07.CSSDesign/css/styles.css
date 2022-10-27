@@ -1,0 +1,44 @@
+.btn1{
+    background-color: rgb(192, 190, 190); 
+    border: 3px; 
+    border-color: black;
+    border-style: solid;
+    color: black;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 30px;   
+}
+    
+
+
+.btn2{
+    background-color: rgb(142, 43, 43);
+    border: 5px;
+    border-radius: 10px;
+    color: rgb(250, 246, 246);
+    display: inline-block;
+    font-family: Arial;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn3{
+    background-color: rgba(216, 213, 209, 0.471);
+    border: 5px;
+    background-image: url(../img/logo-tiktok.png);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position: left;
+    background-size: 47px;
+    color: black;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 20px 65px;
+    text-decoration: none;
+}
