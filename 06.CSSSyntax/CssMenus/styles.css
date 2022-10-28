@@ -1,3 +1,21 @@
 .menu1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Open Sans", sans-serif;
+    list-style-type: style row;
+    padding: 15px 30px;
+
+}
+
+.active{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    font-weight: 100;
+    letter-spacing: 1.4;
+    margin: 15px;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background 1s;
+    list-style-type: style row;
+
 }
