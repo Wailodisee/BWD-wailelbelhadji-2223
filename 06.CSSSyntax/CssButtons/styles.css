@@ -42,3 +42,22 @@
     padding: 20px 65px;
     text-decoration: none;
 }
+
+.btn1:hover{
+    background-color: rgb(13, 13, 35);
+    color: white;
+    transition: background 1s;
+}
+.btn2:hover{
+    background-color: rgb(159, 52, 30);
+    transition: background 1s;
+    
+}
+.btn3:hover{
+    text-decoration:underline;
+}
+
+.btn2:hover::after {
+    content: "» " ;
+    background-color: #dd2e1c tot #c02918;
+}

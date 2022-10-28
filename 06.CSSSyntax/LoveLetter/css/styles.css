@@ -1,11 +1,11 @@
 html {
    background-color: #fff;
-   background-image: url(../img\ and\ fonts/tile.png);
+   background-image: url(../img/tile.png);
 }
 
 body {
    border: 10px solid white;
-   background-image: url(../img\ and\ fonts/bg.png);
+   background-image: url(../img/bg.png);
    background-size: 500px;
    font-family: Arial;
    height: 600px;
