@@ -1,0 +1,189 @@
+/**
+ *
+ * Common styles
+ *
+ * @author !put your name here!
+ *
+ */
+
+/* ===========================================
+   General
+   =========================================== */
+
+/* html, body and general element styles here */
+/* ... */
+
+html {
+   background-color: #dfdfdf;
+}
+
+body {
+   background-color: white;
+}
+
+/* ===========================================
+   Menu
+   =========================================== */
+
+/* menu styles here */
+/* ... */
+nav a{
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   list-style: none;
+   text-decoration: none;
+   display: inline;
+}
+
+.nav{
+   display: flex;
+   list-style: none;
+   padding: 15px 15px;
+   text-decoration: none;
+}
+nav .active a{
+   text-decoration: none;
+}
+
+
+/* ===========================================
+   Banner
+   =========================================== */
+
+/* banner styles here */
+/* ... */
+#banner {
+   background-image: url(../img/slider_photo2.jpg);
+   background-size: 935px;
+   border: 5.5px solid rgb(128, 24, 24);
+   box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
+
+}
+
+#banner p {
+   background-color: rgba(0, 0, 0, 0.649);
+   color: white;
+   font-family: sans-serif;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1.8;
+   padding: 15px 10px;
+}
+
+
+
+/* ===========================================
+   Main
+   =========================================== */
+
+/* main styles here */
+/* ... */
+#content h3 {
+   color: #B52025;
+   font-family: Roboto, sans-serif;
+   font-weight: bolder;
+   text-transform: uppercase;
+}
+
+#content h3:hover::after {
+   content: " →";
+   transition: background 0.3s;
+}
+
+#content p {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#content ul {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#content a {
+   border: 2px solid #B52025;
+   border-radius: 5px;
+   color: #B52025;
+   display: left;
+   font-weight: 520;
+   float: right;
+   padding: 5px 13px;
+   text-decoration: none;
+}
+
+#content a:hover {
+   background-color: #B52025;
+   color: white;
+   transition: background 0.3s;
+}
+
+#content a:hover::after {
+   content: "»";
+}
+
+#content img {
+   background-color: rgb(248, 248, 248);
+   border: 1px solid #dfdfdf;
+   padding: 5px 7px;
+}
+
+.projects h3 {
+   color: #B52025;
+   font-family: Roboto, sans-serif;
+   font-weight: bolder;
+   text-transform: uppercase;
+}
+
+.projects h3:hover::after {
+   content: " →";
+   transition: background 0.3s;
+}
+
+.newsletter h3 {
+   color: #B52025;
+   font-family: Roboto, sans-serif;
+   font-weight: bolder;
+   text-transform: uppercase;
+}
+
+.newsletter h3:hover::after {
+   content: " →";
+   transition: background 0.3s;
+}
+
+.newsletter p {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.newsletter form input#email {
+   background-color: #FDEAEB;
+   color: rgb(104, 104, 104);
+}
+
+.newsletter form input {
+   background-color: #B52025;
+   color: white;
+}
+
+.newsletter form input:hover {
+   background-color: white;
+   color: #B52025;
+   text-transform: uppercase;
+   transition: background 0.3s;
+}
+
+.newsletter form label {
+   color: white;
+}
+
+
+/* ===========================================
+   Footer
+   =========================================== */
+
+/* footer styles here */
+/* ... */
+footer {
+   background-color: #dfdfdf;
+   text-align: center;
+}
