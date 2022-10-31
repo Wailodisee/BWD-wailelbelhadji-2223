@@ -27,22 +27,28 @@ body {
 
 /* menu styles here */
 /* ... */
-nav a{
-   color: black;
+nav ul {
+   display: flex;
    font-family: Arial, Helvetica, sans-serif;
    list-style: none;
-   text-decoration: none;
-   display: inline;
+   padding: 15px 15px;
 }
 
-.nav{
-   display: flex;
-   list-style: none;
+nav a {
+   text-decoration: none;
+   color: black;
    padding: 15px 15px;
-   text-decoration: none;
 }
-nav .active a{
-   text-decoration: none;
+nav a:hover{
+   background-color: #B52025;
+   color: white;
+   transition: 0.3s;
+   padding: 11px 15px;
+}
+nav .active{
+   padding: 11px 15px;
+   background-color: #B52025;
+   color: white;
 }
 
 
@@ -106,7 +112,6 @@ nav .active a{
    color: #B52025;
    display: left;
    font-weight: 520;
-   float: right;
    padding: 5px 13px;
    text-decoration: none;
 }
@@ -119,6 +124,10 @@ nav .active a{
 
 #content a:hover::after {
    content: "»";
+}
+
+.more{
+   text-align: right;
 }
 
 #content img {
@@ -173,7 +182,7 @@ nav .active a{
 }
 
 .newsletter form label {
-   color: white;
+   display: none;
 }
 
 
