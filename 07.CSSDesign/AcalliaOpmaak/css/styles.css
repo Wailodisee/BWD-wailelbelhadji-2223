@@ -60,11 +60,8 @@ nav .active{
 /* ... */
 #banner {
    background-image: url(../img/slider_photo2.jpg);
-   background-size: 935px;
-   border: 5.5px solid rgb(128, 24, 24);
+   border: 4.5px solid rgb(128, 24, 24);
    box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.75);
-
-
 }
 
 #banner p {
@@ -75,7 +72,7 @@ nav .active{
    font-style: normal;
    font-weight: normal;
    line-height: 1.8;
-   padding: 15px 10px;
+ 
 }
 
 
