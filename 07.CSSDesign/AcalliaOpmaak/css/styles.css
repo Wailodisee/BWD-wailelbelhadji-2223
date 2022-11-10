@@ -119,7 +119,7 @@ nav .active{
    transition: background 0.3s;
 }
 
-#content a:hover::after {
+#content a::after {
    content: "»";
 }
 
