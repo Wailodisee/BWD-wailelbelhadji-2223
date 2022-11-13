@@ -1,4 +1,68 @@
-#topbar{
-    padding: 15px 10px ;
-    margin: 0px 0px;
+/*hoofdpagina*/
+.wrapper {
+    padding: 25px;
 }
+
+#topbar {
+    padding-bottom: 25px;
+}
+
+nav ul {
+    margin: 25px;
+}
+
+nav a {
+    padding: 16px;
+}
+
+#slogan {
+    padding: 10px;
+}
+
+#einstein {
+    padding-right: 32px;
+}
+
+
+/*4 buttons op het kant*/
+
+h4 {
+    margin: 12px 0px;
+}
+
+#bestelnu {
+    margin-top: 45px;
+}
+
+#social {
+    padding-bottom: 55px;
+}
+
+#ctaTwitter {
+    margin-bottom: 10px;
+}
+
+#ctaFacebook {
+    margin-bottom: 10px;
+}
+
+#ctaNelog {
+    margin-bottom: 10px;
+}
+
+p {
+    padding-bottom: 15px;
+    padding: 10px;
+}
+
+.wrapper img {
+    padding-top: 32px;
+}
+
+.button {
+    padding: 15px;
+}
+
+
+
+
