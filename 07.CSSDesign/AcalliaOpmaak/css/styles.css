@@ -19,6 +19,10 @@ html {
 
 body {
    background-color: white;
+   border-radius: 7px;
+   font-size: 13px;
+   font-family: Roboto, Arial, Helvetica, sans-serif;
+   text-align: justify;
 }
 
 /* ===========================================
@@ -35,20 +39,22 @@ nav ul {
 }
 
 nav a {
-   text-decoration: none;
    color: black;
    padding: 15px 15px;
+   text-decoration: none;
 }
-nav a:hover{
+
+nav a:hover {
    background-color: #B52025;
    color: white;
-   transition: 0.3s;
    padding: 11px 15px;
+   transition: padding 0.3s;
 }
-nav .active{
-   padding: 11px 15px;
+
+nav .active {
    background-color: #B52025;
    color: white;
+   padding: 11px 15px;
 }
 
 
@@ -72,7 +78,7 @@ nav .active{
    font-style: normal;
    font-weight: normal;
    line-height: 1.8;
- 
+
 }
 
 
@@ -107,7 +113,6 @@ nav .active{
    border: 2px solid #B52025;
    border-radius: 5px;
    color: #B52025;
-   display: left;
    font-weight: 520;
    padding: 5px 13px;
    text-decoration: none;
@@ -123,7 +128,7 @@ nav .active{
    content: "»";
 }
 
-.more{
+.more {
    text-align: right;
 }
 
