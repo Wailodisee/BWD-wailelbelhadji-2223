@@ -27,6 +27,7 @@ nav ul {
     display: flex;
     flex-direction: row;
 }
+
 nav li {
     padding: 0px 15px;
 }
@@ -39,7 +40,7 @@ img {
 
 #gallery ul {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -71,7 +72,7 @@ img {
 .visual {
     float: left;
     margin-right: 16px;
-    
+
 }
 
 /* DOORMAT */
@@ -86,9 +87,4 @@ img {
 footer {
     display: flex;
     justify-content: space-between;
-    
 }
-
-
-
-
