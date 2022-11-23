@@ -48,7 +48,6 @@ img {
 
 #gallery ul {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -61,7 +60,6 @@ img {
 /* ======= */
 
 .left {
-    display: flexs;
     flex-flow: row wrap;
     float: left;
     justify-content: space-evenly;
@@ -74,7 +72,6 @@ img {
     flex-flow: row wrap;
     justify-content: space-evenly;
     max-width: 30%;
-
 }
 
 .visual {

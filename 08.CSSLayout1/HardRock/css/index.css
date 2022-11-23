@@ -3,7 +3,8 @@
    =========================================== */
 
 #banner {
-   background-image: url(../img/banner.jpg) ;
+   background-image: url(../img/banner.jpg);
+   background-size: cover;
 }
 
 .banner_box {
@@ -28,13 +29,29 @@
 h1 {
    padding-left: 250px;
 }
+
 .logo p {
    padding-left: 343px;
 }
 
-header {
+header .wrapper {
+   align-items: center;
    display: flex;
-   flex-wrap: nowrap;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 15px 0px;
+}
+
+header .wrapper ul {
+   align-items: center;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 5px 0px 0px 270px;
+}
+
+header .wrapper li {
+   margin: 22px;
 }
 
 nav ul {
@@ -59,22 +76,31 @@ main {
 .left {
    padding: 30px 15px 0 15px;
    width: 640px;
-}
-.left p {
-   display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
+   max-width: 40%;
+   display: block;
 }
 
-#gallery {
-   margin: 35px 0;
+.left p {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-evenly;
 }
+
+#gallery a{
+   margin: 35px 0;
+   max-width: 40%;
+   display: flex;
+   flex-wrap: wrap;
+}
+
 
 /* right */
 
 .right {
    padding: 30px 15px 0 255px;
+   max-width: 60%;  
 }
+
 .right img {
    max-width: 23%;
 }
