@@ -11,13 +11,21 @@
 body {
     margin-left: auto;
     margin-right: auto;
+}
+.wrapper {
     max-width: 960px;
+    width: 100%;
+}
+
+header , main , footer , #doormat {
+    display: flex;
+    justify-content: center;
 }
 
 /* HEADER */
 /* ====== */
 
-header {
+header .wrapper{
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -72,19 +80,22 @@ img {
 .visual {
     float: left;
     margin-right: 16px;
-
+}
+.thumb {
+    float: right;
+    margin-left: 5px;
 }
 
 /* DOORMAT */
 /* ======= */
-#doormat {
+#doormat .wrapper {
     display: flex;
     justify-content: space-evenly;
 }
 
 /* FOOTER */
 /* ======= */
-footer {
+footer .wrapper {
     display: flex;
     justify-content: space-between;
 }

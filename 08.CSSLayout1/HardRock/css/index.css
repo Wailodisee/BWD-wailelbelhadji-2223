@@ -26,33 +26,44 @@
       Main
       =========================================== */
 h1 {
-   padding-left: 150px;
+   padding-left: 250px;
 }
 .logo p {
-   padding-left: 245px;
+   padding-left: 343px;
 }
 
 header {
    display: flex;
-   flex-wrap: wrap;
-   
+   flex-wrap: nowrap;
 }
 
 nav ul {
    display: flex;
    justify-content: space-around;
-   flex-wrap: nowrap;
+
 }
 
 main {
    display: flex;
 }
 
+.banner_box {
+   padding-left: 280px;
+}
+
+
+
+
 /* left */
 
 .left {
    padding: 30px 15px 0 15px;
    width: 640px;
+}
+.left p {
+   display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 
 #gallery {
@@ -62,7 +73,10 @@ main {
 /* right */
 
 .right {
-   padding: 30px 15px 0 15px;
+   padding: 30px 15px 0 255px;
+}
+.right img {
+   max-width: 23%;
 }
 
 .right h3 a {
