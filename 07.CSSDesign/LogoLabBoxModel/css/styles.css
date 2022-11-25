@@ -43,8 +43,8 @@ header {
 
 
 p {
+       padding: 10px;
     padding-bottom: 15px;
-    padding: 10px;
 }
 
 #social li {
@@ -64,4 +64,7 @@ p {
 
 footer li {
     border-bottom: 1px solid rgb(196, 195, 195);
+}
+footer {
+    padding: 10px;
 }

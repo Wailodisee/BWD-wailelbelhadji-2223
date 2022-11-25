@@ -71,6 +71,7 @@ main {
 
 
 
+
 /* left */
 
 .left {
@@ -90,7 +91,7 @@ main {
    margin: 35px 0;
    max-width: 40%;
    display: flex;
-   flex-wrap: wrap;
+   flex-wrap: nowrap;
 }
 
 

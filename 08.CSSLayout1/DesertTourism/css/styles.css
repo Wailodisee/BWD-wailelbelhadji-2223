@@ -53,7 +53,7 @@ img {
 }
 
 #gallery li {
-    max-width: 23%;
+    width: 23%;
 }
 
 /* CONTENT */
@@ -62,16 +62,16 @@ img {
 .left {
     flex-flow: row wrap;
     float: left;
-    justify-content: space-evenly;
-    max-width: 65%;
+    justify-content: space-between;
+    width: 65%;
 
 }
 
 .right {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
-    max-width: 30%;
+    justify-content: space-between;
+    width: 30%;
 }
 
 .visual {

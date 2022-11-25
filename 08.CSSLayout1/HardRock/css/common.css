@@ -219,3 +219,36 @@ nav ul {
    flex-wrap: nowrap;
    justify-content: space-around;
 }
+footer ul {
+   display: flex;
+}
+footer {
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 960px;
+}
+header .wrapper {
+   align-items: center;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 15px 0px;
+}
+
+header .wrapper ul {
+   align-items: center;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 5px 0px 0px 270px;
+}
+
+header .wrapper li {
+   margin: 22px;
+}
+
+nav ul {
+   display: flex;
+   justify-content: space-around;
+
+}
