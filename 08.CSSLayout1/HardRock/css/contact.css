@@ -4,6 +4,8 @@
 
 /* top */
 
+
+
 #main_top {
    padding: 30px 15px 0 15px;
 }
@@ -29,15 +31,56 @@ address {
 iframe {
    border: none;
 }
+#bottom_content{
+   display: flex;
+   justify-content: space-between;
+}
 
+#bottom_content .maps.right{
+   width: 55%;
+}
 /* form */
 
 form label {
    font-size: 16px;
    font-style: italic;
+   width: 15%;
+}
+form p{
+   display: flex;
+   justify-content: space-between;
+   margin-right: 20px;
 }
 
+
 form input {
+   padding-left: 50px;
+   padding-right: 50px;
    padding: 7px;
+   width: 75%;
+   
 }
+form textarea{
+   margin-left: 50px;
+   width: 350px;
+   
+}
+form{
+   width: 480px;
+}
+
+#inpMessage {
+   height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
 

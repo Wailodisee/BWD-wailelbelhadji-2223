@@ -26,39 +26,7 @@
 /* ===========================================
       Main
       =========================================== */
-h1 {
-   padding-left: 250px;
-}
 
-.logo p {
-   padding-left: 343px;
-}
-
-header .wrapper {
-   align-items: center;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   padding: 15px 0px;
-}
-
-header .wrapper ul {
-   align-items: center;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   padding: 5px 0px 0px 270px;
-}
-
-header .wrapper li {
-   margin: 22px;
-}
-
-nav ul {
-   display: flex;
-   justify-content: space-around;
-
-}
 
 main {
    display: flex;
@@ -68,50 +36,64 @@ main {
    padding-left: 280px;
 }
 
-
-
-
-
 /* left */
 
 .left {
    padding: 30px 15px 0 15px;
-   width: 640px;
-   max-width: 40%;
-   display: block;
+   width: 68%;
+
 }
 
 .left p {
-   display: flex;
    flex-flow: row wrap;
    justify-content: space-evenly;
 }
 
 #gallery a{
-   margin: 35px 0;
-   max-width: 40%;
-   display: flex;
-   flex-wrap: nowrap;
+   margin: 0px;
+   width: 23%;
 }
+#gallery {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 35px 0px 0px 0px;
+   row-gap: 10px;
+}
+
+img {
+   width: 92%;
+
+}
+
 
 
 /* right */
 
 .right {
-   padding: 30px 15px 0 255px;
-   max-width: 60%;  
+   width: 29%;  
+   padding: 30px 15px 0 15px;
 }
 
 .right img {
-   max-width: 23%;
+   padding-right: 7px ;
+   width: 40%;
 }
 
 .right h3 a {
-   color: #333;
    border-bottom: 1px solid #cccccc;
+   color: #333;
 }
 
 .right h3 a:hover {
    color: #be0a35;
    text-decoration: none;
+}
+
+.thumb {
+   float: left;
+}
+
+.readmore {
+   display: block;
+   padding-top: 10px ;
 }
