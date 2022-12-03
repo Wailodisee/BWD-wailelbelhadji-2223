@@ -8,6 +8,7 @@
 }
 
 .banner_box {
+   padding-left: 280px;
    padding: 120px 0 60px 0;
 }
 
@@ -32,9 +33,6 @@ main {
    display: flex;
 }
 
-.banner_box {
-   padding-left: 280px;
-}
 
 /* left */
 
@@ -49,10 +47,11 @@ main {
    justify-content: space-evenly;
 }
 
-#gallery a{
+#gallery a {
    margin: 0px;
    width: 23%;
 }
+
 #gallery {
    display: flex;
    flex-wrap: wrap;
@@ -70,12 +69,12 @@ img {
 /* right */
 
 .right {
-   width: 29%;  
    padding: 30px 15px 0 15px;
+   width: 29%;
 }
 
 .right img {
-   padding-right: 7px ;
+   padding-right: 7px;
    width: 40%;
 }
 
@@ -95,5 +94,5 @@ img {
 
 .readmore {
    display: block;
-   padding-top: 10px ;
+   padding-top: 10px;
 }

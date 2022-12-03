@@ -31,14 +31,16 @@ address {
 iframe {
    border: none;
 }
-#bottom_content{
+
+#bottom_content {
    display: flex;
    justify-content: space-between;
 }
 
-#bottom_content .maps.right{
+#bottom_content .maps.right {
    width: 55%;
 }
+
 /* form */
 
 form label {
@@ -46,7 +48,8 @@ form label {
    font-style: italic;
    width: 15%;
 }
-form p{
+
+form p {
    display: flex;
    justify-content: space-between;
    margin-right: 20px;
@@ -58,29 +61,19 @@ form input {
    padding-right: 50px;
    padding: 7px;
    width: 75%;
-   
+
 }
-form textarea{
+
+form textarea {
    margin-left: 50px;
    width: 350px;
-   
+
 }
-form{
+
+form {
    width: 480px;
 }
 
 #inpMessage {
    height: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
