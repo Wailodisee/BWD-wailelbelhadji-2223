@@ -7,6 +7,15 @@
 
 /* GENERAL */
 /* ======= */
+img {
+    border: 0;
+ }
+ 
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
 
 body {
     margin-left: auto;
@@ -95,4 +104,11 @@ img {
 footer .wrapper {
     display: flex;
     justify-content: space-between;
+}
+/* media */
+/*====== */
+@media (max-width: 500px) {
+
+   
+    
 }
