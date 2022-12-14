@@ -1,0 +1,299 @@
+/*GENERAL*/
+
+
+body {
+    font-family: 'Lucida Grande', sans-serif;
+}
+
+h2, h3, h5 {
+    font-family: Manjari, sans-serif;
+}
+
+/*hoofdpagina*/
+
+h1 {
+    padding-left: 120px;
+    padding-right: 200px;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-right: 120px;
+    padding-top: 40px;
+}
+
+nav a {
+
+    color: rgb(18, 167, 45);
+    padding: 25px;
+    text-decoration: none;
+}
+
+nav .active a {
+    background-color: rgb(18, 167, 45);
+    color: white;
+    padding: 10px 10px;
+
+}
+
+nav a:hover {
+    background-color: rgb(18, 167, 45);
+    color: white;
+    padding: 10px 10px;
+    transition: background 0.3s;
+}
+
+/*header*/
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 960px;
+}
+
+/*banner*/
+
+.bann {
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    padding: 50px;
+}
+
+.bannmsg {
+    color: white;
+    justify-content: flex-end;
+    padding-left: 600px;
+    padding-top: 200px;
+}
+.banntitle {
+    font-size: 42px;
+}
+
+
+
+/*main  boven*/
+
+h2 {
+    color: #2692d0;
+    font-size: 36px;
+}
+
+h3 {
+    color: #2692d0;
+    font-size: 18px;
+}
+
+.maincontent .gauche {
+    display: inline-block;
+    flex-wrap: wrap;
+    text-align: start;
+    width: 25%;
+}
+
+.maincontent .milieu {
+    flex-wrap: wrap;
+    width: 25%;
+}
+
+.maincontent .droit {
+    flex-wrap: wrap;
+    width: 25%;
+}
+
+.maincontent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.maincontent img {
+    border-bottom: 5px solid forestgreen;
+    height: auto;
+    width: auto;
+}
+
+.gauche p {
+    margin: 0px;
+}
+
+.btn {
+    padding-top: 15px;
+}
+
+.maincontent a {
+    color: #2692d0;
+    text-decoration: none;
+    transition: background 0.1s;
+}
+
+.maincontent a:hover {
+    text-decoration: none;
+}
+
+.maincontent a:hover::after {
+    content: " ▶";
+}
+
+
+/* main beneden */
+
+.maincontent2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+.maincontent2 #milieu {
+    width: 28%;
+
+}
+
+.maincontent2 #gauche {
+    width: 25%;
+}
+
+.maincontent2 #droite {
+    width: 20%;
+}
+
+.maincontent2 .ytb {
+    height: auto;
+    width: auto;
+}
+
+#gauche a {
+    color: #2692d0;
+    text-decoration: none;
+}
+
+#gauche a :hover {
+    text-decoration: none;
+}
+
+#gauche a:hover::after {
+    content: " ▶";
+}
+
+
+h6 {
+    color: #2692d0;
+    font-size: 14px;
+    padding-left: 40px;
+}
+
+.backgr {
+    align-items: center;
+    background-color: #e5f7ff;
+    border: 2px solid #0288cc;
+
+}
+
+footer .gauche {
+    text-decoration: none;
+}
+
+.backgr ul {
+    list-style: none;
+}
+
+.backgr ul a {
+    color: #0288cc;
+}
+
+/*footer*/
+
+footer {
+    background-color: rgba(34, 34, 34, 255);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer #footmenu .gauche ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+
+footer #footmenu .gauche a {
+    color: white;
+    padding: 0px 10px 0px 10px;
+}
+
+footer #footmenu .gauche a:hover {
+    text-decoration: none;
+    transition: text-decoration 0.1s;
+}
+
+footer #footmenu .gauche {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+footer #footmenu .gauche a::after {
+    content: "  |";
+}
+
+.smallfooter {
+    padding: 0px 0px 0px 8px;
+}
+
+footer form {
+    align-items: center;
+    column-gap: 10px;
+    display: flex;
+    padding: 10px;
+}
+
+footer form input {
+    padding: 4px;
+}
+
+.msgfooter {
+    display: block;
+    padding-left: 50px;
+    width: 60%;
+}
+
+footer #footmenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .bas {
+    display: block;
+}
+
+footer .gauche li {
+    width: 20%;
+}
+span {
+    display: none;
+}
+
+@media (min-width: 250px){
+    header {
+        display: flex;
+    }
+}
+}
+@media (min-width: 500px){
+    header {
+        display: block;
+    }
+    main {
+        display: block;
+    }
+}

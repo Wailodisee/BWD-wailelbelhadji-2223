@@ -1,0 +1,16 @@
+#gallery .link_gallery{
+    margin: 0px;
+    width: 23%;
+ }
+ 
+ #gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 35px 0px 0px 0px;
+    row-gap: 10px;
+ }
+ 
+ img {
+    width: 92%;
+ 
+ }

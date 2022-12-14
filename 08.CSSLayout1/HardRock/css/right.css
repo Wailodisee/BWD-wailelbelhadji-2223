@@ -1,0 +1,27 @@
+.right {
+    padding: 30px 15px 0 15px;
+    width: 29%;
+ }
+ 
+ .right img {
+    padding-right: 7px;
+    width: 40%;
+ }
+ 
+ .right .title__right .link__right {
+    border-bottom: 1px solid #cccccc;
+    color: #333;
+ }
+ 
+ .right .title__right .link__right:hover {
+    color: #be0a35;
+    text-decoration: none;
+ }
+ .thumb {
+    float: left;
+ }
+ 
+ .readmore {
+    display: block;
+    padding-top: 10px;
+ }

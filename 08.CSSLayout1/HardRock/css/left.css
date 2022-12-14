@@ -1,0 +1,14 @@
+.left {
+    padding: 30px 15px 0 15px;
+    width: 68%;
+ 
+ }
+ 
+ .left .paragraph__left {
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+ }
+ main {
+    display: flex;
+ }
+ 

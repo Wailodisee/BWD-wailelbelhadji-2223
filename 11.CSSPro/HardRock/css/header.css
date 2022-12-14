@@ -1,0 +1,79 @@
+h1 {
+    padding-left: 250px;
+ }
+ 
+ .logo p {
+    padding-left: 343px;
+ }
+ 
+ header .page__wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 0px;
+ }
+ 
+ header .page__wrapper #mainmenu {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 0px 0px 270px;
+ }
+ 
+ header .page__wrapper li {
+    margin: 22px;
+ }
+ 
+ nav ul {
+    display: flex;
+    justify-content: space-around;
+ 
+ }
+ 
+ #mainmenu {
+    list-style: none;
+ }
+ 
+ #mainmenu a {
+    color: #000;
+    font-size: 17px;
+    text-transform: uppercase;
+ }
+ 
+ #mainmenu a:hover,
+ #mainmenu .active a {
+    color: #14833b;
+    text-decoration: none;
+ }
+
+ /*LOGO*/
+ .logo h1 {
+    font-size: 48px;
+ }
+ 
+ .logo h1 a {
+    color: #333;
+    font-family: 'Special Elite', cursive;
+ }
+ 
+ .logo h1 a:hover {
+    text-decoration: none;
+ }
+ 
+ .logo p {
+    color: #555;
+    font-size: 14px;
+    font-style: italic;
+ }
+
+
+ header {
+    background: linear-gradient(0deg, rgba(200, 200, 200, 1) 35%, rgba(240, 240, 240, 1) 85%);
+ }
+ 
+ header .page__wrapper {
+    padding: 50px 0;
+ 
+ }

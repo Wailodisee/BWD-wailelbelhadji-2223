@@ -1,0 +1,19 @@
+/**
+ * Common styles
+ *
+ * @author Rogier van der Linde <rogier.vanderlinde@kahosl.be>
+ *
+ */
+
+/* ===========================================
+   General
+   =========================================== */
+
+/* reset */
+
+@import "../css/banner.css";
+@import "../css/contact.css";
+@import "../css/footer.css";
+@import "../css/general.css";
+@import "../css/header.css";
+@import "../css/main.css";

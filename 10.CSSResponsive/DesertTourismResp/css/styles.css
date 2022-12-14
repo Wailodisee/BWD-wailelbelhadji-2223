@@ -1,0 +1,176 @@
+/**
+ * Layout styles for Desert Tours
+ *
+ * @author Rogier van der Linde <rogier.vanderlinde@kahosl.be>
+ *
+ */
+
+/* GENERAL */
+/* ======= */
+
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper {
+    max-width: 960px;
+    width: 100%;
+}
+
+header, main, footer, #doormat {
+    display: flex;
+    justify-content: center;
+}
+
+/* HEADER */
+/* ====== */
+
+header .wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+nav li {
+    padding: 0px 15px;
+}
+
+/* MAIN */
+/* ====== */
+img {
+    max-width: 100%;
+}
+
+#gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#gallery li {
+    width: 23%;
+}
+
+/* CONTENT */
+/* ======= */
+
+.left {
+    flex-flow: row wrap;
+    float: left;
+    justify-content: space-between;
+    width: 65%;
+
+}
+
+.right {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+.visual {
+    float: left;
+    margin-right: 16px;
+}
+
+.thumb {
+    float: right;
+    margin-left: 5px;
+}
+
+/* DOORMAT */
+/* ======= */
+#doormat .wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* FOOTER */
+/* ======= */
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* media */
+/*====== */
+@media (min-width: 500px) {
+
+    nav ul {
+        flex-direction: row;
+    }
+
+    #gallery li {
+        width: 23%;
+    }
+
+    #doormat .wrapper {
+        display: flex;
+    }
+
+
+}
+
+@media (min-width: 250px) {
+    #gallery li {
+        width: 50%;
+    }
+
+    #doormat .wrapper {
+        display: block;
+    }
+
+    .right {
+        display: block;
+        width: 90%;
+    }
+    .left {
+        width: 90%;
+    }
+
+    footer .wrapper {
+        display: block;
+    }
+
+}
+
+@media (min-width: 750px) {
+    #gallery ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .left {
+        flex-flow: row wrap;
+        float: left;
+        justify-content: space-between;
+        width: 65%;
+
+    }
+
+    .right {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        width: 30%;
+    }
+
+    #gallery li {
+        width: 23%;
+    }
+
+    #doormat .wrapper {
+        display: flex;
+    }
+
+
+}

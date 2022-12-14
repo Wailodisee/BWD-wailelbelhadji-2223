@@ -1,98 +1,16 @@
-/* ===========================================
-   Banner
-   =========================================== */
-
-#banner {
-   background-image: url(../img/banner.jpg);
-   background-size: cover;
-}
-
-.banner_box {
-   padding-left: 280px;
-   padding: 120px 0 60px 0;
-}
-
-.banner_box .btn-cta {
-   font-size: 18px;
-   padding: 14px 60px;
-}
-
-.banner_box p {
-   color: white;
-   font-size: 30px;
-   font-weight: bold;
-   margin-bottom: 30px;
-}
-
-/* ===========================================
-      Main
-      =========================================== */
-
-
-main {
-   display: flex;
-}
-
-
-/* left */
-
-.left {
-   padding: 30px 15px 0 15px;
-   width: 68%;
-
-}
-
-.left p {
-   flex-flow: row wrap;
-   justify-content: space-evenly;
-}
-
-#gallery a {
-   margin: 0px;
-   width: 23%;
-}
-
-#gallery {
-   display: flex;
-   flex-wrap: wrap;
-   margin: 35px 0px 0px 0px;
-   row-gap: 10px;
-}
-
-img {
-   width: 92%;
-
-}
+@import "../css/bannner.css";
+@import "../css/gallery.css";
+@import "../css/left.css";
+@import "../css/right.css";
 
 
 
-/* right */
 
-.right {
-   padding: 30px 15px 0 15px;
-   width: 29%;
-}
 
-.right img {
-   padding-right: 7px;
-   width: 40%;
-}
 
-.right h3 a {
-   border-bottom: 1px solid #cccccc;
-   color: #333;
-}
 
-.right h3 a:hover {
-   color: #be0a35;
-   text-decoration: none;
-}
 
-.thumb {
-   float: left;
-}
 
-.readmore {
-   display: block;
-   padding-top: 10px;
-}
+
+
+
