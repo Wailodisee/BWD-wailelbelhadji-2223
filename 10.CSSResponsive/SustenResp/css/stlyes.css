@@ -23,10 +23,11 @@ header {
 }
 
 nav ul {
-    display: flex;
+
     list-style: none;
     padding-right: 120px;
     padding-top: 40px;
+    margin: 20px;
 }
 
 nav a {
@@ -59,7 +60,6 @@ nav a:hover {
 }
 
 header .wrapper {
-    display: flex;
     justify-content: center;
     max-width: 960px;
 }
@@ -284,16 +284,37 @@ span {
 }
 
 @media (min-width: 250px){
-    header {
+    header .wrapper {
         display: flex;
     }
-}
-}
-@media (min-width: 500px){
-    header {
+    .maincontent {
         display: block;
     }
-    main {
+    .maincontent2 {
         display: block;
+    }
+    header .wrapper {
+        display: block;
+    }
+    .bann {
+        width: 50%;
+    }
+}
+
+@media (min-width: 500px){
+    header .wrapper {
+        display: flex;
+    }
+    .maincontent {
+        display: flex;
+    }
+    .maincontent2 {
+        display: flex;
+    }
+    nav ul {
+        display: flex;
+    }
+    .bann {
+        width: 100%;
     }
 }
