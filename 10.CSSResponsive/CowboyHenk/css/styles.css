@@ -27,7 +27,7 @@ img {
 body {
 	background-color: #f1f1f1;
 	color: #000;
-	font-family: "Raleway", sans-serif;
+	font-family: Raleway, sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
 }
@@ -85,9 +85,7 @@ header .inverted {
 header p {
 	margin: 15px 0;
 	text-align: center;
-	-webkit-animation: bummer 2s;
 	animation: bummer 2s;
-	-webkit-transform: scale(1, 1);
 	transform: scale(1, 1);
 }
 
@@ -312,10 +310,9 @@ aside {
 
 .site_footer .buttons a {
 	background-color: #000;
-	color: #000;
+	color: #fff;
 	display: inline-block;
 	padding: 12px 24px;
-	color: #fff;
 }
 
 .site_footer .buttons a:hover {
