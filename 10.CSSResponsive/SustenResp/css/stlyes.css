@@ -299,6 +299,15 @@ span {
     .bann {
         width: 50%;
     }
+    .maincontent .droit p {
+        width: 100%;
+    }
+    .maincontent .gauche p {
+        width: 100%;
+    }
+    .maincontent .milieu p {
+        width: 100%;
+    }
 }
 
 @media (min-width: 500px){
