@@ -46,7 +46,7 @@ a.lnk-cta {
     padding: 15px 0px;
  }
  
- header .page__wrapper ul {
+ header .page__wrapper #mainmenu {
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -54,11 +54,11 @@ a.lnk-cta {
     padding: 5px 0px 0px 270px;
  }
  
- header .page__wrapper li {
+ header .page__wrapper .item__list {
     margin: 22px;
  }
  
- nav ul {
+ nav #mainmenu {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;

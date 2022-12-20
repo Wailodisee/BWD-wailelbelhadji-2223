@@ -17,11 +17,11 @@
     color: #be0a35;
     text-decoration: none;
  }
- .thumb {
+ .rigth__thumb {
     float: left;
  }
  
- .readmore {
+ .right__readmore {
     display: block;
     padding-top: 10px;
  }
